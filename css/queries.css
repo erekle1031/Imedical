@@ -1,0 +1,789 @@
+/*...........1250px................................................*/
+@media (max-width: 79em) {
+  .tablet-margin {
+    margin: 0 5rem;
+  }
+
+  .main-nav {
+   padding-left: 5.3rem; 
+   
+    max-width: 100%;
+
+  }
+ .header-box{
+  gap: 2.5rem;
+  display: flex;
+  align-items: center;
+  padding-top: 2.7rem;
+  
+ }
+
+  .appointment-section .tablet-margin {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .right-side {
+    grid-row: 1;
+  }
+  .right-side-img {
+    display: none;
+  }
+  .mobile-right-side-img {
+    display: block;
+    width: 100%;
+  }
+  .left-side {
+    padding-top: 6rem;
+  }
+  .left-side h1,
+  .left-side p {
+    max-width: 88rem;
+  }
+  .appointment-section .cards {
+    margin-top: 5.2rem;
+    padding: 5.2rem 5.2rem;
+    max-width: 62.4rem;
+  }
+  .make-appointment {
+    gap: 5.1rem;
+  }
+
+  .make-appointment-btn {
+    padding: 1.6rem 3.2rem;
+    border-radius: 5.5rem;
+    gap: 2rem;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    box-shadow: 0px 20px 23px -9px rgba(36, 190, 224, 0.3);
+  }
+  .swiper-button-prev {
+    right: 0 !important;
+    left: 85% !important;
+    top: -11.9rem;
+  }
+
+  footer .upper-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+
+  footer .row .sub-btn  {
+    display: flex;
+   
+     }
+  /*about us .. achievement section*/
+
+  .about-us-section .container {
+    max-width: 113rem;
+    margin: auto;
+  }
+  .achievements-cards {
+    justify-content: center;
+    grid-template-columns: auto;
+    margin-top: 0;
+    gap: 2rem;
+
+  }
+  .our-achievements-section h2 {
+
+    padding-bottom: 2.4rem;
+  }
+  .achievement-card-text {
+    grid-column: 1;
+    padding-top: 6rem;
+  }
+  .first-achievement-text {
+    grid-row: 1;
+  }
+  .last-achievement-img {
+    grid-row: 6;
+    
+  }
+  .our-achievements-section h2 {
+    text-align: center;
+ 
+  }
+
+  .Services-section .service-cards {
+    grid-template-columns: 1fr;
+    /* align-items: center;
+    justify-content: center; */
+    justify-items: center;
+    /* display: flex;
+    flex-direction: column; */
+    gap: 8.4rem;
+  }
+
+  .Services-section .service-card {
+    max-width: 77.6rem;
+  }
+
+  .service-info img {
+    width: 100%;
+    height: 100%;
+  }
+  .testimonials-section .swiper-button-next,
+.testimonials-section .swiper-button-prev {
+  top: -3.5rem;
+}
+.feedback-section .card {
+  text-align: center;
+}
+
+}
+/*...............................*************(1024px, iPad Pro 12.9" - 1)***********.................................................*/
+@media (max-width: 64em) {
+  html {
+    font-size: 56.25%;
+  }
+  .tablet-margin {
+    margin: 0 7.2rem;
+  }
+
+  .make-appointment-btn.nav-btn {
+    display: none;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+  .why-us-section {
+    margin-top: 15rem;
+  }
+
+  .why-us-section .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .why-us-section .cards .card {
+    padding: 3.2rem 5.8rem 5.5rem 5.8rem;
+  }
+
+  .qualified-doctors-section .title h1 {
+    margin-top: 7.7rem;
+  }
+
+  .qualified-doctors-section .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 9rem;
+  }
+
+  .feedback-section .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .feedback-section .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.2rem 3.2rem 5.5rem 3.2rem;
+    cursor: pointer;
+    border: none;
+  }
+
+  .testimonial-text {
+    display: none;
+  }
+  .mobile-testimonial-text {
+    display: block;
+  }
+
+  .testimonial-main p {
+    font-size: 1.6rem;
+  }
+  footer {
+    padding-top: 7rem;
+  }
+  footer .upper-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 7rem;
+  }
+
+  .last-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-menu {
+    margin-top: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: center;
+  }
+  .footer-menu h5 a{
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding-left: 0rem;
+    color: rgba(6, 33, 38, 0.4);
+  }
+
+  footer .row {
+    margin-top: 0;
+  }
+ 
+
+
+  .main-nav {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(0);
+
+    transition: all 0.3s ease-in-out;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    display: flex;
+    visibility: visible;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .nav-open .icon-mobile-nav.nav-close-btn {
+    display: block;
+
+    color: black;
+  }
+  .nav-open .icon-mobile-nav.nav-menu-btn {
+    display: none;
+  }
+  .header-box{
+    display: flex;
+    align-items: center;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 99;
+  }
+  .main-nav-list {
+    flex-direction: column;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-left: 2.4rem;
+    margin-top: 12rem;
+  }
+  .nav-link:link,
+  .nav-link:visited {
+    gap: 2.4rem;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    transition: 0.3s;
+
+    width: 100%;
+  }
+
+  .nav-link:hover,
+  .nav-link:active {
+    color: #e5661e;
+  }
+  .nav-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 2.4rem;
+  }
+  .mob-nav-border {
+    color: #e5661e;
+    width: 20px;
+    padding: 0;
+  }
+  .active {
+    color: #e5661e !important;
+  }
+
+  .nav-item:hover .mob-nav-border {
+    border: 2px solid #e5661e;
+   }
+
+  .make-appointment-section form {
+    margin-top: 4rem;
+    grid-template-columns: 1fr;
+  }
+  .make-appointment-section form button {
+    grid-column: 1;
+  }
+  .make-appointment-section form .text {
+    grid-column: 1;
+    width: 100%;
+  }
+
+  .main-nav .nav-link {
+    margin-top: 1rem;
+  }
+
+  /*achievement section..about us*/
+
+  .achievement-card-text h3 {
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3.6rem;
+    color: #062126;
+  }
+
+  .achievement-card-text p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    color: rgba(6, 33, 38, 0.7);
+    padding-top: 2rem;
+  }
+
+  .our-achievements-section h2 {
+    font-weight: 700;
+    font-style: bold;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+
+    color: #062126;
+  }
+
+  .our-services-section,
+  .contact-us-section,
+  .blog-section,
+  .about-us-section,
+  .doctors-section {
+    height: 390px;
+  }
+.main-nav{
+  display: flex;
+  align-items: flex-start;
+  padding-top: 2.7rem;
+}
+
+.logo{
+  z-index: 999999;
+}
+.blog-article-cards {
+  grid-template-columns: 1fr;
+}
+.article img{
+  width: 100%;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+
+.feedback-border{
+  display: none;
+}
+/* .icon{
+
+  padding: 1.5rem !important;
+
+
+} */
+}
+
+/*......................********************************(800px)****************************............................*/
+
+@media (max-width: 50em) {
+  html {
+    font-size: 50%;
+  }
+  .appointment-section {
+    margin-top: 7.5rem;
+}
+  .why-us-section .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .make-appointment-section form {
+    margin-top: 4rem;
+    grid-template-columns: 1fr;
+  }
+  .make-appointment-section form .text {
+    width: 100%;
+  }
+  .make-appointment-btn {
+    padding: 1.6rem 3.2rem !important;
+    border-radius: 5.5rem;
+    gap: 2rem;
+    font-size: 2rem !important;
+    font-weight: 500;
+    line-height: 3.5rem;
+    box-shadow: 0px 20px 23px -9px rgba(36, 190, 224, 0.3);
+  }
+
+  .appointment-section .cards {
+    padding: 4rem 6.2rem 4rem 4rem;
+  }
+
+  .appointment-section .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .appointment-section .make-appointment {
+    grid-template-columns: 1fr;
+  }
+  .swiper-button-prev {
+    right: 0 !important;
+    left: 83% !important;
+  }
+
+  .why-us-section .cards {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+  .why-us-section .cards .card {
+    grid-template-columns: 1fr;
+    padding: 3.2rem 2.9rem 5.5rem 2.9rem;
+  }
+
+  .qualified-doctors-section .cards {
+    grid-template-columns: 1fr;
+  }
+  /* footer .row .sub-btn {
+    max-width: 35.5rem;
+  } */
+
+  .testimonials-section h1 {
+    font-size: 3.2rem;
+  }
+
+  .make-appointment-section h1 {
+    font-size: 2.4rem;
+  }
+
+  .services-section h1 {
+    font-size: 2.4rem;
+  }
+
+  .services-section {
+    margin-top: 12.1rem;
+  }
+  .why-us-section {
+    margin-top: 12rem;
+  }
+  .why-us-section h1 {
+    font-size: 2.4rem;
+  }
+  .why-us-section .cards .card p {
+    max-width: 308px;
+  }
+  .why-us-section .cards {
+    margin-top: 4rem;
+  }
+
+  .qualified-doctors-section .title h1 {
+    font-size: 2.4rem;
+    margin-top: 6rem;
+  }
+  .qualified-doctors-section .title button {
+    margin-top: 3.2rem;
+  }
+  .qualified-doctors-section .cards {
+    margin-top: 4rem;
+  }
+  .subscribe-btn {
+    padding: 1.7rem 1.9rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+  }
+  .main-nav {
+    padding-left: 0.8rem;
+     
+      max-width: 100%;
+  
+    }
+
+  .swiper-button-prev {
+    left: 85% !important;
+  }
+
+  .swiper-button {
+    width: 4.5rem;
+    height: 4.5rem;
+    top: -8.2rem;
+  }
+  .swiper-button::after {
+    font-size: 1.6rem;
+  }
+  .testimonials-section .swiper-button-next,
+.testimonials-section .swiper-button-prev {
+  top: -1rem;
+}
+
+
+  .load-more-btn-div {
+    padding-bottom: 1rem;
+  }
+  .popular-tags h3,
+  .popular-articles h3 {
+    text-align: center;
+  }
+  .blog-section,
+  .about-us-section,
+  .contact-us-section,
+  .our-services-section,
+  .doctors-section  {
+    height: 270px;
+  }
+
+  .doctor{
+    padding-top: 5.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.2rem;
+     padding-top: 6rem;
+  }
+
+  .doctor .doctor-feedback{
+    grid-row: 2;
+    grid-column: 1/3;
+    flex-direction: row;
+    padding: 3.8rem 2.8rem;
+  
+  }
+  
+}
+
+/*..........580..............*/
+
+@media (max-width: 36em) {
+
+  .tablet-margin {
+    margin: 0 2.4rem;
+  } 
+
+  .header-box{
+    padding-top: 3.2rem;
+   }
+  .achievements-cards img {
+    width: 100%;
+  }
+  .swiper-button-prev {
+    left: 83% !important;
+  }
+
+  .swiper-button {
+    width: 4rem;
+    height: 4rem;
+    top: -8.4rem;
+  }
+  .swiper-button::after {
+    font-size: 1.4rem;
+  }
+
+  .qualified-doctors-section .title {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+  }
+
+  .qualified-doctors-section .title h1 {
+    text-align: start;
+  }
+
+  .feedback-section .cards .card h1 {
+    font-weight: 600;
+    font-size: 4.3rem;
+    line-height: 2.4rem;
+  }
+  .feedback-section .cards .card h4 {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+  }
+
+
+   .load-more-btn-div {
+    grid-column: span 1;
+  }
+  .blog-cards{
+    grid-template-columns: 1fr;
+  }
+ 
+
+  .blog-section,
+  .about-us-section,
+  .our-services-section,
+  .doctors-section {
+    height: 200px;
+  }
+
+  .our-services-btn,
+  .about-us-btn,
+  .blog-btn,
+  .doctors-btn {
+    font-size: 3rem;
+  }
+
+.quote-section .tablet-margin {
+  display: grid;
+  grid-template-columns:1fr;
+}
+.quote {
+  display: flex;
+justify-content: center;
+}
+
+
+.doctor{
+  display: grid;
+  grid-template-columns:auto;
+  gap: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 2rem;
+  border-radius: 3rem;
+  margin-top: 3rem;
+}
+
+.doctor .doctor-feedback{
+  grid-column: 1;
+  flex-direction: row;
+  padding: 3.8rem 2.8rem;
+
+}
+.doctor-info{
+  padding-top: 1rem;
+}
+.make-appointment-section form {
+
+  width: 100%;
+}
+}
+
+/*.......................***********************(400px ---- )**************************............................*/
+
+@media (max-width: 25em) {
+  html {
+    font-size: 45.5%;
+  }
+  .appointment-section {
+    margin-top: 7.5rem;
+}
+
+  .testimonials-section h1 {
+    font-size: 2.4rem;
+  }
+  /* footer .row .sub-btn {
+    max-width: 40rem;
+  } */
+/* 
+  footer .row .sub-btn input {
+    border: 0;
+    outline: 0;
+    padding: 1.2rem 0.9rem;
+    background-color: transparent;
+  } */
+
+  .swiper-button-prev {
+    left: 84% !important;
+  }
+
+  .testimonials-section .swiper-button-next,
+  .testimonials-section .swiper-button-prev {
+    top: 0.1rem;
+  }
+  .swiper-button {
+    width: 3rem;
+    height: 3rem;
+    top: -8.2rem;
+  }
+  .swiper-button::after {
+    font-size: 1.2rem;
+  }
+
+  .appointment-section h1 {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 116%;
+  }
+  /* footer .row .sub-btn {
+    max-width: 40rem;
+  } */
+
+  .service-section h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 112.5%;
+    color: #062126;
+  }
+
+  .make-appointment-section form {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 3rem;
+    row-gap: 3.2rem;
+    margin-top: 5.2rem;
+  }
+
+ footer .row .sub-btn input {
+
+
+    padding: 1.7rem 2rem;
+
+
+  }
+}
+
+/*.............370.......*********************************()**************************.....................................*/
+
+@media (max-width: 23em) {
+  .swiper-button-prev {
+    left: 84% !important;
+  }
+
+  .testimonials-section .swiper-button-next,
+  .testimonials-section .swiper-button-prev {
+    top: 0.1rem;
+  }
+  .swiper-button {
+    width: 3rem;
+    height: 3rem;
+    top: -8.2rem;
+  }
+  .swiper-button::after {
+    font-size: 1.2rem;
+  }
+
+  .feedback-section .cards .card h4 {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: #12ccf4;
+  }
+ footer .row .sub-btn input {
+
+
+    padding: 1.7rem 2rem;
+
+
+   }
+
+}
